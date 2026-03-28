@@ -1,0 +1,16 @@
+# Ignorar archivos de configuración sensible
+.env
+*.session
+*.session-journal
+
+# Ignorar entorno virtual
+.venv/
+venv/
+env/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Archivos antiguos que ya no usas
+config.py
